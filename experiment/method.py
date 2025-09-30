@@ -235,7 +235,7 @@ fareg = FaReG(num_features = len(idx_list), delta = delta, device = device)
 fareg_optimizer = optim.Adam(fareg.parameters(), lr=lr2)
 # Training the model
 fareg_train = FaReG_Train(fareg, device, fareg_train_loader, batch_size=batch2, max_epoch=epoch2,
-                            learning_rate=lr2, val_loader=fareg_val_loader, optimizer=fareg_optimizer, verbose = False)
+                          learning_rate=lr2, val_loader=fareg_val_loader, optimizer=fareg_optimizer, verbose = False)
 
 modeldir2 = "models/" + "fareg" + "_ndata" + str(n_train_calib) + "_lr" + str(lr2) +\
             "_delta" + str(delta) + "_nsample" + str(n_sample) + "_ntest" + str(n_test) + "_seed" + str(seed)
