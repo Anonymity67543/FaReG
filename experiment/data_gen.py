@@ -5,6 +5,8 @@ from sklearn.model_selection import train_test_split
 from typing import Tuple, List, Optional
 import torch
 import torch.utils.data as data_utils
+
+
 # Data generating model with inside-group variance
 class data_model:
   def __init__(self, p, delta1, delta0, group_perc_1 = [0.5,0.5], group_perc_2 = [0.5,0.5], K = 2, seed = 2025):
