@@ -35,7 +35,7 @@ Prerequisites for the FaReG package:
  - torchmetrics
  - statsmodels
 
-Additional prerequisites to run the numerical experiments:
+Additional prerequisites to run the experiments:
  - shutil
  - tempfile
  - pickle
