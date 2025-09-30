@@ -7,7 +7,6 @@ from statsmodels.stats.multitest import multipletests
 
 
 def compute_conf_pvals(test_score, calib_scores, left_tail = False):
-  # notice that if larger scores stand for outliers, we should use right tail: calib scores >= test scores.
   n_cal = len(calib_scores)
   if left_tail:
     pval = (1.0 + np.sum(np.array(calib_scores) <= np.array(test_score))) / (1.0 + n_cal)
@@ -16,7 +15,6 @@ def compute_conf_pvals(test_score, calib_scores, left_tail = False):
   return pval
 
 def nonconf_scores_mc(X_cal, Y_cal, bbox_mc, alpha = 0.1, random_state = 2023):
-#   print('Y_cal: ', Y_cal)
   X_cal = torch.from_numpy(X_cal).float()
   Y_cal = torch.from_numpy(Y_cal)
   p_hat_calib = bbox_mc.net.predict_prob(X_cal)
