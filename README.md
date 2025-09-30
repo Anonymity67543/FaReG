@@ -7,7 +7,7 @@ Accompanying paper: *Fair Conformal Classification via Learning Representation-B
 ## Contents
 
  - `Group_fairness` Python package implementing our method.
-    - `Group_fairness/blackbox.py` Codes to train and evaluate blackbox models.
+    - `Group_fairness/blackbox.py` Codes to train and evaluate models.
     - `Group_fairness/evals.py` Codes to evaluate the performance of conformal prediction sets.
     - `Group_fairness/cp.py` Codes to build conformal prediction sets. 
     - `Group_fairness/networks.py` Deep networks.
