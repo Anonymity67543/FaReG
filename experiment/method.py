@@ -50,7 +50,7 @@ beta = 0
 alpha = 0.1 # nominal miscoverage level
 n_test = 500
 
-# wsc
+# WSC plus
 g_delta = 0.5
 M = 1000
 
@@ -67,7 +67,6 @@ outfile_name = "ndata"+str(n_train_calib) + "_lr" + str(lr) + "_delta1" + str(de
 modeldir = "models/baseModel/" + outfile_name
 
 
-
 p = 10 # dimension of the feature for simulated data
 K = 6 # number of classes
 idx_list = [p-1, p-2, p-3, p-4] # list of attributes to investigate over
@@ -75,7 +74,6 @@ idx_list = [p-1, p-2, p-3, p-4] # list of attributes to investigate over
 
 group_perc_1 = [1-perc_1,perc_1] # easy-to-classify, hard-to-classify
 group_perc_2 = [1-perc_2,perc_2] # easy-to-classify, hard-to-classify
-
 
 
 #########################
