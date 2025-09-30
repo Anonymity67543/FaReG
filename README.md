@@ -21,7 +21,7 @@ Accompanying paper: *Fair Conformal Classification via Learning Representation-B
     
 ## Prerequisites
 
-Prerequisites for the AFCP package:
+Prerequisites for the FaReG package:
  - numpy
  - scipy
  - sklearn
