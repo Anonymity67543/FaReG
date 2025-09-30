@@ -10,7 +10,7 @@ class data_model:
   def __init__(self, p, delta1, delta0, group_perc_1 = [0.5,0.5], group_perc_2 = [0.5,0.5], K = 2, seed = 2025):
     self.K = K # number of class
     self.p = p # dimension of X
-    self.delta1 = delta1 # prop of impossible to classify samples for group 1
+    self.delta1 = delta1 
     self.delta0 = delta0
     self.group_perc_1 = group_perc_1 # percentage of group 0 and group 1 [group 0, group 1]
     self.group_perc_2 = group_perc_2 # percentage of group 0 and group 1 [group 0, group 1]
