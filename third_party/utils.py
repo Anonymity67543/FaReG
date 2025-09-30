@@ -14,6 +14,7 @@ def compute_conf_pvals(test_score, calib_scores, left_tail = False):
     pval = (1.0 + np.sum(np.array(calib_scores) >= np.array(test_score))) / (1.0 + n_cal)
   return pval
 
+
 def nonconf_scores_mc(X_cal, Y_cal, bbox_mc, alpha = 0.1, random_state = 2023):
   X_cal = torch.from_numpy(X_cal).float()
   Y_cal = torch.from_numpy(Y_cal)
