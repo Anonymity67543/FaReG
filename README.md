@@ -11,7 +11,7 @@ Accompanying paper: *Fair Conformal Classification via Learning Representation-B
     - `Group_fairness/evals.py` Codes to evaluate the performance of conformal prediction sets.
     - `Group_fairness/cp.py` Codes to build conformal prediction sets. 
     - `Group_fairness/networks.py` Deep networks.
-    - `Group_fairness/wsc.py` WSC metric.
+    - `Group_fairness/wsc.py` WSC metrics.
  - `third_party/` Third-party Python packages.
  - `experiment/` Codes to replicate the experiments in the accompanying paper.
     - `experiment/method.py` Codes to reproduce the main results for multi-class classification tasks.
