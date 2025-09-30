@@ -8,7 +8,6 @@ sys.path.append("../")
 from third_party.utils import compute_conf_pvals, nonconf_scores_mc
 
 
-
 class Marginal_Fairness:
     def __init__(self, alpha, random_state = 2025):
         self.alpha = alpha
