@@ -14,7 +14,7 @@ Accompanying paper: *Fair Conformal Classification via Learning Representation-B
     - `Group_fairness/wsc.py` WSC metric.
  - `third_party/` Third-party Python packages.
  - `experiment/` Codes to replicate the experiments in the accompanying paper.
-    - `experiment/method.py` Codes to reproduce the numerical results for multi-class classification tasks.
+    - `experiment/method.py` Codes to reproduce the main results for multi-class classification tasks.
     - `experiment/data_gen.py` Codes to generate the dataset used in the accompanying paper.  
 
 
